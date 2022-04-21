@@ -94,4 +94,8 @@
   NodeCG.waitForReplicants(runDataArray, runDataActiveRunSurrounding).then(() => {
 		if (runDataActiveRunSurrounding.value) updateUpcomingRuns();
 	});
+
+  runDataActiveRunSurrounding.on('change', newVal => {
+		if (newVal) updateUpcomingRuns();
+	});
 })();
