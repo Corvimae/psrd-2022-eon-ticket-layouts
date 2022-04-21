@@ -1,16 +1,16 @@
 {
-  "name": "psrd-2022-springtide-storm-layouts",
+  "name": "psrd-2022-eon-ticket-layouts",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Corvimae/psrd-2022-springtide-storm-layouts"
+    "url": "git+https://github.com/Corvimae/psrd-2022-eon-ticket-layouts"
   },
   "author": "zoton2",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Corvimae/psrd-2022-springtide-storm-layouts/issues"
+    "url": "https://github.com/Corvimae/psrd-2022-eon-ticket-layouts/issues"
   },
-  "homepage": "https://github.com/Corvimae/psrd-2022-springtide-storm-layouts#readme",
+  "homepage": "https://github.com/Corvimae/psrd-2022-eon-ticket-layouts#readme",
   "nodecg": {
     "compatibleRange": "^1.5.0",
     "bundleDependencies": {
@@ -23,69 +23,9 @@
         "height": 1080
       },
       {
-        "file": "game-title.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "game-category.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "game-system.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "game-estimate.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "player.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "twitch.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "timer.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "donation-total.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "up-next.html",
-        "width": 1800,
-        "height": 720
-      },
-      {
-        "file": "current-run.html",
-        "width": 1800,
-        "height": 720
-      },
-      {
-        "file": "current-run-race.html",
-        "width": 1800,
-        "height": 720
-      },
-      {
-        "file": "current-runner.html",
-        "width": 1800,
-        "height": 720
-      },
-      {
-        "file": "commentary.html",
-        "width": 1800,
-        "height": 720
+        "file": "intermission.html",
+        "width": 1920,
+        "height": 1080
       }
     ],
     "mount": [

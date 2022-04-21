@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="css/intermission.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container intermission-container">
+      <div class="column">
+        <div class="bag-top-bar">
+          <div class="bag-pokeball-container">
+            <div class="bag-pokeball-outer">
+              <div class="bag-pokeball-inner">
+                <div class="bag-pokeball-inner-button"></div>
+              </div>
+            </div>
+            <div class="bag-bar-connector"></div>
+          </div>
+          <div class="bag-menu-title-container">
+            <div class="bag-menu-title">
+              <div class="bag-menu-arrow left"></div>
+              EON TICKET
+              <div class="bag-menu-arrow right"></div>
+            </div>
+            <div class="bag-date-pips">
+              <div class="date-pip" data-date="2022-04-22"></div>
+              <div class="date-pip" data-date="2022-04-23"></div>
+              <div class="date-pip" data-date="2022-04-24"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bag-image-container">
+          <div class="bag-image"></div>
+        </div>
+        <div class="bag-text">
+          <p>
+            EON TICKET is in support of AmoebaUK's burglary relief.
+          </p>
+          <p>
+            Donate at psrd.run/donate
+          </p>
+          <div class="intermission-progress-bar-container">
+            <div class="donation-progress-bar">
+              <div class="donation-progress-bar-fill" id="donation-progress-bar-fill"></div>
+            </div>
+          </div>
+          <div class="intermission-donation-goal">
+            <div><span id="donation-total">$1,000</span> raised so far!</div>
+            <div>Goal: <span id="donation-goal">$5,000</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="column right-column">
+        <div class="bag-item-list">
+          <div class="bag-item-list-connector"></div>
+          <div class="bag-item-list-connector-overlay"></div>
+          <div class="bag-item-list-inner">
+            <div class="bag-item-list-row upcoming-run-1">
+              <div class="upcoming-run-info">
+                <div class="upcoming-run-name">Upcoming Run 1</div>
+                <div class="upcoming-run-runner">Runner 1</div>
+              </div>
+              <div class="upcoming-run-offset">Up next!</div>
+            </div>
+            <div class="bag-item-list-row upcoming-run-2">
+              <div class="upcoming-run-info">
+                <div class="upcoming-run-name">Upcoming Run 2</div>
+                <div class="upcoming-run-runner">Runner 2</div>
+              </div>
+              <div class="upcoming-run-offset">~1 hour</div>
+            </div>
+            <div class="bag-item-list-row upcoming-run-3">
+              <div class="upcoming-run-info">
+                <div class="upcoming-run-name">Upcoming Run 3</div>
+                <div class="upcoming-run-runner">Runner 3</div>
+              </div>
+              <div class="upcoming-run-offset">~2 hours</div>
+            </div>
+            <div class="bag-item-list-row upcoming-run-4">
+              <div class="upcoming-run-info">
+                <div class="upcoming-run-name">Upcoming Run 4</div>
+                <div class="upcoming-run-runner">Runner 4</div>
+              </div>
+              <div class="upcoming-run-offset">~3 hours</div>
+            </div>
+            <div class="bag-item-list-row upcoming-run-5">
+              <div class="upcoming-run-info">
+                <div class="upcoming-run-name">Upcoming Run 5</div>
+                <div class="upcoming-run-runner">Runner 5</div>
+              </div>
+              <div class="upcoming-run-offset">~4 hours</div>
+            </div>
+            <div class="bag-item-list-row close-bag-row">
+              <div class="close-bag-arrow"></div>
+              CLOSE BAG
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+		<!-- JavaScript -->
+		<script src="vendor/dayjs.min.js"></script>
+		<script src="vendor/relativeTime.js"></script>
+		<script src="vendor/duration.js"></script>
+		<script src="js/donation-total.js"></script>
+		<script src="js/intermission.js"></script>
+	</body>
+</html>

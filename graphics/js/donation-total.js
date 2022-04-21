@@ -41,7 +41,6 @@
 		const value = newVal.toLocaleString('en-US', { minimumFractionDigits: 0 });
 
 		document.querySelector('#donation-goal').innerHTML = `$${value}`;
-		document.querySelector('#donation-goal-shading').innerHTML = `$${value}`;
 	});
 
 	function updateProgressBar(value) {
