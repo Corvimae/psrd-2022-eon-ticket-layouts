@@ -202,7 +202,7 @@
   width: 15rem;
   height: 12rem;
   background-size: cover;
-  background-image: url("image/emerald-may-bag.png");
+  background-image: url("/bundles/psrd-2022-eon-ticket-layouts/image/emerald-may-bag.png");
 }
 
 .bag-text {
@@ -344,7 +344,7 @@
 .close-bag-arrow {
   position: absolute;
   left: -1.25rem;
-  top: 50%;
+  top: calc(50% - 0.125rem);
   width: 0; 
   height: 0; 
   border-top: 0.6rem solid transparent;
