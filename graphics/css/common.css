@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Power Green";
   src: url("/bundles/psrd-2022-eon-ticket-layouts/fonts/pkmnem.ttf") format("truetype");
+	ascent-override: 90%;
 }
 
 html, body {
