@@ -290,6 +290,7 @@ body {
 	border-radius: 0.25rem;
 	overflow: hidden;
 	margin-right: 0.5rem;
+	z-index: 1;
 }
 
 .donation-progress-bar-fill {
